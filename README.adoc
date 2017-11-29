@@ -1,0 +1,8 @@
+# CompuLab CSOM template
+
+## How to:
+
+* Update the conf/bblayers.conf. Add this layer:
+```
+BBLAYERS += "${BSPDIR}/sources/meta-compulab-csom"
+```
