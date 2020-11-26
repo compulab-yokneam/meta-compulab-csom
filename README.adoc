@@ -1,0 +1,14 @@
+# CompuLab CSOM
+
+## How to:
+
+* Update the conf/bblayers.conf. Add this layer:
+```
+BBLAYERS += "${BSPDIR}/sources/meta-compulab-csom"
+```
+
+* Creating a customer service package:
+** Issue this command in the ${BUILDDIR}:
+```
+bitbake cservice-start
+```
