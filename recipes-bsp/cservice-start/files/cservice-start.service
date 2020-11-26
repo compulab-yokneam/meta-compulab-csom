@@ -1,0 +1,9 @@
+[Unit]
+Description=Customer Service  Start Script
+
+[Service]
+Type=forking
+ExecStart=/usr/sbin/cservice-start start
+
+[Install]
+WantedBy=multi-user.target
