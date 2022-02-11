@@ -1,0 +1,6 @@
+# CompuLab CSOM U-Boot
+
+## How to:
+
+* Copy patches to the `custom-som` folder.
+* Update the `SRC_URI_append` list of the `u-boot-compulab_%.bbappend` file.
