@@ -2,7 +2,11 @@
 
 ## How to:
 
-* Update the conf/bblayers.conf. Add this layer:
+* Download the metalayer to the ${BUILDDIR}/../sourcse filder:
 ```
-BBLAYERS += "${BSPDIR}/sources/meta-compulab-csom"
+git clone -b ucm-imx8m-plus-fec0 https://github.com/compulab-yokneam/meta-compulab-csom.git  ${BUILDDIR}/../sources/meta-compulab-csom
+```
+* Add the layer to bblayers.conf:
+```
+bitbake-layers add-layer ${BUILDDIR}/../sources/meta-compulab-csom
 ```
