@@ -1,0 +1,12 @@
+# CompuLab CSOM template
+
+## How to:
+
+* Download the metalayer to the ${BUILDDIR}/../sourcse filder:
+```
+git clone -b ucm-imx8m-plus-lvds https://github.com/compulab-yokneam/meta-compulab-csom.git  ${BUILDDIR}/../sources/meta-compulab-csom
+```
+* Add the layer to bblayers.conf:
+```
+bitbake-layers add-layer ${BUILDDIR}/../sources/meta-compulab-csom
+```
